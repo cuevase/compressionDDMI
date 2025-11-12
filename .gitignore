@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ML/AI specific
+*.ckpt
+*.safetensors
+*.pth
+*.h5
+models/
+checkpoints/
+.cache/
+huggingface/
+
+# Generated output files
+output*.png
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
